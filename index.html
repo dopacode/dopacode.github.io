@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Blog de viaje</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"/>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+        }
+            
+    </style>
+</head>
+<body>
+    <header>
+        <h1 id="titulo">Un paseo por el norte de nuestro país</h1>
+    </header>
+    <div>
+        <!--la siguiente línea p queda vacía, pero es el contenido del div-->
+        <p></p>
+    </div>
+    <ol>
+        <h3>Lugares visitados</h3>
+        <li>Garganta del Diablo, Tilcara</li>
+        <li>Pucará de Tilcara, Tilcara</li>
+        <li>Cerro de la Cruz, Tilcara</li>
+        <li>Tilcara: casco histórico y alrededores</li>
+            <ul>
+                <li>Iglesia del pueblo</li>
+                <li>Plaza central</li>
+                <li>Museos</li>
+                <li>Laguna de los patos</li>
+            </ul>
+        <li>Maimará y su cerro paleta del pintor</li>
+        <li>Purmamarca, Cuesta de Lipán y Salinas Grandes</li>
+        <li>Trópico de Capricornio en Huacalera, Uquía y quebrada de las señoritas, Humauaca y las Serranías del Hornocal</li>
+        <li>Iruya, Salta</li>
+        <ul>
+            <li>Cerro de la cruz</li>
+            <li>Capilla</li>
+            <li>Casco histórico</li>
+        </ul>
+    </ol>
+    <section>
+        <table>
+            <thead>
+                <tr>
+                    <th>Ubicación</th>
+                    <th>Altura aproximada sobre el nivel del mar (metros)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Hornocal</td>
+                    <td>4350</td>
+                </tr>
+                <tr>
+                    <td>Cuesta de Lipan</td>
+                    <td>4170</td>
+                </tr>
+                <tr>
+                    <td>Iruya</td>
+                    <td>4000</td>
+                </tr>
+                <tr>
+                    <td>Garganta del diablo</td>
+                    <td>2890</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    
+    <section class="container">
+        <article class="post">
+            <h2>Día 3</h2>
+            <p>Yendo mas hacia el norte</p>
+            <img src="https://i.ibb.co/nDbppcz/Iruya.jpg" width=400" />
+            <p>Capilla del pueblo</p>
+        </article>
+        <article class="post">
+            <h2>Día 2</h2>
+            <p>El punto mas alto del viaje</p>
+            <img src="https://i.ibb.co/r7dm02h/hornocal.jpg" width=400" />
+            <p>Serranías del <span style="color: crimson;">Hornocal</span> o Cerro 14 colores en Humauaca, Jujuy</p>
+        </article>
+        <article class="post">
+            <h2>Día 1</h2>
+            <p>Ascensos tranquilos para ir aclimatándose</p>
+            <img src="https://i.ibb.co/NnYCX4D/pucara.jpg" width=400" />
+            <p>Ruinas <span style="color:crimson">Pucará de Tilcara</span>
+                , Jujuy</p>
+        </article>
+    </section>
+    <br>
+    <br>
+    <section>
+        <form action="/formulario" method="POST">
+            <h3>Dejá tu comentario</h3>
+            <label for="nombre">Nombre    </label>
+            <input type="text" id="nombre" placeholder="Nombre">
+            <br>
+            <label for="apellido">Apellido  </label>
+            <input id="apellido" placeholder="Apellido">
+            <br>
+            </label for="comentario">Comentario</label>
+            <textarea cols="20" rows="1" id="comentario" placeholder="Ingrese comentario"></textarea>
+            <br>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+    <br>
+    <footer>
+        <section>
+            <a href="#titulo">Ir al comienzo</a>
+            <a target="_blank" href="https://www.instagram.com/gimenez.nico/">Instagram</a>
+            <a href="mailto:nicolas-gimenez@hotmail.com">Mail</a>
+        </section>
+        <p>Copyright 2021</p>
+    </footer>
+    
+</body>
+</html>
